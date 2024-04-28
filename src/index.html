@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackery Vibe Page</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="banner">
+            <a href="#home">Home</a>
+        </div>
+    </header>
+    <div id="main-content">
+        <button hx-get="/example-endpoint" hx-target="#main-content">
+            Load Content
+        </button>
+    </div>
+    <footer>
+        <a href="https://twitter.com/yourusername"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="https://github.com/yourusername"><img src="github-icon.png" alt="GitHub"></a>
+        <a href="https://linkedin.com/in/yourusername"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+    </footer>
+</body>
+
+</html>
