@@ -61,4 +61,6 @@ footer {
 footer a img {
     width: 24px;
     height: auto;
+    background-color: #95a472b7;
+    /* Add a light background color */
 }
