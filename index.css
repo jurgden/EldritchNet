@@ -19,10 +19,12 @@ header {
 
 .banner {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    /* Center-align the content horizontally */
     padding: 15px 15px 10px 15px;
     /* Added padding from top and left */
 }
+
 
 .home-link,
 .page-link {
