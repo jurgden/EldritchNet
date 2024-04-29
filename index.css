@@ -20,44 +20,23 @@ header {
 .banner {
     display: flex;
     justify-content: flex-start;
-    /* Align items to the start (left) */
     padding: 10px;
-    /* Add padding to the banner */
 }
 
-.banner .home-link {
+.home-link,
+.page-link {
     font-family: 'Arial', sans-serif;
     font-size: 28px;
     color: #0f0;
     text-decoration: none;
     margin-right: 20px;
-    /* Add margin between the home link and buttons */
     outline: 2px solid #0f0;
-    /* Add visible outline */
     padding: 10px 20px;
-    /* Add padding to the link */
 }
 
-.banner .home-link:hover {
+.home-link:hover,
+.page-link:hover {
     color: #0a0;
-    /* Change the color on hover if desired */
-}
-
-.button-container {
-    display: flex;
-    align-items: center;
-}
-
-button {
-    outline: 2px solid #0f0;
-    /* Add visible outline to buttons */
-    padding: 10px 20px;
-    /* Add padding to buttons */
-    background-color: transparent;
-    /* Remove button background */
-    border: none;
-    /* Remove button border */
-    cursor: pointer;
 }
 
 #main-content {
