@@ -42,3 +42,17 @@ footer a img {
     width: 24px;
     height: auto;
 }
+
+.banner .home-link {
+    font-family: 'Arial', sans-serif;
+    /* Change the font family as desired */
+    font-size: 28px;
+    /* Adjust the font size */
+    color: #0f0;
+    text-decoration: none;
+}
+
+.banner .home-link:hover {
+    color: #0a0;
+    /* Change the color on hover if desired */
+}
