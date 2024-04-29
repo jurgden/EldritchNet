@@ -53,14 +53,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #000;
+    background-color: #74aa42d7;
     padding: 10px 0;
     text-align: center;
+
 }
 
 footer a img {
     width: 24px;
     height: auto;
-    background-color: #95a472b7;
-    /* Add a light background color */
 }
